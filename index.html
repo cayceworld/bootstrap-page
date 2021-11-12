@@ -5,123 +5,129 @@
 	<meta charset="utf-8">
 	<title>Golden</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="vendor/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 	<link rel="stylesheet" href="https://use.typekit.net/qjr2tnv.css">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 	<div class="wrapper">
-		<header class="header">
-			<img src="images/Logo-Treehouse.png" alt="">
-			<nav class="header__menu">
-				<ul class="header__list">
-					<li>
-						<a href="" class="header__link">home</a>
-					</li>
-					<li>
-						<a href="" class="header__link">services</a>
-					</li>
-					<li>
-						<a href="" class="header__link">portfolio</a>
-					</li>
-					<li>
-						<a href="" class="header__link">about</a>
-					</li>
-					<li>
-						<a href="" class="header__link">contact</a>
-					</li>
-				</ul>
-			</nav>
+		<header class="container header">
+			<div class="row nav">
+				<img class="col  col-lg-6 mx-auto logo pb-1" height="25" src="images/Logo-Treehouse.png" alt="">
+				<div class="col mx-auto nav_item">
+					<a href="#">home</a>
+				</div>
+				<div class="col mx-auto nav_item">
+					<a href="#">services</a>
+				</div>
+				<div class="col mx-auto nav_item">
+					<a href="#">portfolio</a>
+				</div>
+				<div class="col mx-auto nav_item">
+					<a href="#">about</a>
+				</div>
+				<div class="col mx-auto nav_item">
+					<a href="#">contact</a>
+				</div>
+
+			</div>
 			<div class="splash">
-				<h3 class="spash__subtitle">Welcome To Our Studio!</h3>
-				<h1 class="splash__title">It's nice to meet you</h1>
+				<h3 class="spash__title">Welcome To Our Studio!</h3>
+				<h1 class="splash__subtitle">It's nice to meet you</h1>
 				<a href="" class="spash__button">tell me more</a>
 			</div>
+
 		</header>
 		<main class="main">
-			<section class="services">
-				<h2 class="services__title">Services</h2>
-				<h5 class="services__subtitle">Lorem ipsum dolor sit amet consectetur.</h5>
-				<div class="services__items">
-					<div class="services__item">
+			<div class="services my-5 container">
+				<h2 class="services__title mb-2">Services</h2>
+				<h5 class="services__subtitle mb-5">Lorem ipsum dolor sit amet consectetur.</h5>
+				<div class="services row">
+					<div class="services__item col-12 col-md-4 mx-auto my-3">
 						<img src="images/Icon-Basket.png" alt="" class="services__item_ico">
-						<h3 class="services__item_title">E-commerce</h3>
+						<h3 class="services__item_title my-3">E-commerce</h3>
 						<div class="services__item_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odio
 							autem cupiditate, tenetur nulla laborum provident voluptatem omnis?</div>
 					</div>
-					<div class="services__item">
+					<div class="services__item col-12 col-md-4 mx-auto my-3">
 						<img src="images/Icon-Laptop.png" alt="" class="services__item_ico">
-						<h3 class="services__item_title">Responsive Web</h3>
+						<h3 class="services__item_title my-3">Responsive Web</h3>
 						<div class="services__item_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odio
 							autem cupiditate, tenetur nulla laborum provident voluptatem omnis?</div>
 					</div>
-					<div class="services__item">
+					<div class="services__item col-12 col-md-4 mx-auto my-3">
 						<img src="images/Icon-Locked.png" alt="" class="services__item_ico">
-						<h3 class="services__item_title">Web Security</h3>
+						<h3 class="services__item_title my-3">Web Security</h3>
 						<div class="services__item_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odio
 							autem cupiditate, tenetur nulla laborum provident voluptatem omnis?</div>
 					</div>
 
 				</div>
-			</section>
-			<section class="gallery">
-				<h2 class="gallery__title">Our Portfolio</h2>
-				<h5 class="gallery__subtitle">Lorem ipsum dolor sit amet consectetur.</h5>
-				<div class="gallery__items">
-					<div class="gallery__item">
-						<a href="" class="gallery__image">
-							<img src="images/Image.png" alt="">
-						</a>
-						<a href="" class="gallery__name"> Eboby & Ivory</a>
-						<div class="gallery__dataial">Branding</div>
-					</div>
-					<div class="gallery__item">
-						<a href="" class="gallery__image">
-							<img src="images/Image2.png" alt="">
-						</a>
-						<a href="" class="gallery__name"> Smart Stationary</a>
-						<div class="gallery__dataial">Print Design</div>
-					</div>
-					<div class="gallery__item">
-						<a href="" class="gallery__image">
-							<img src="images/Image3.png" alt="">
-						</a>
-						<a href="" class="gallery__name"> Clever Poster</a>
-						<div class="gallery__dataial">Print Design</div>
-					</div>
-					<div class="gallery__item">
-						<a href="" class="gallery__image">
-							<img src="images/Image4.png" alt="">
-						</a>
-						<a href="" class="gallery__name"> Vinyl Record</a>
-						<div class="gallery__dataial">Product Mock-Up</div>
-					</div>
-					<div class="gallery__item">
-						<a href="" class="gallery__image">
-							<img src="images/Image5.png" alt="">
-						</a>
-						<a href="" class="gallery__name"> Treehouse Template</a>
-						<div class="gallery__dataial">Web Design</div>
-					</div>
-					<div class="gallery__item">
-						<a href="" class="gallery__image">
-							<img src="images/Image6.png" alt="">
-						</a>
-						<a href="" class="gallery__name"> Burned Logo</a>
-						<div class="gallery__dataial">Branding</div>
+			</div>
+			<div class="gallery">
+				<div class="container py-5">
+					<h2 class="gallery__title mt-3">Our Portfolio</h2>
+					<h5 class="gallery__subtitle my-3 mb-5">Lorem ipsum dolor sit amet consectetur.</h5>
+					<div class="gallery__items row row-cols-2">
+						<div class="gallery__item col-12 col-sm-12 col-md-6 col-lg-4 mx-auto my-3 row">
+							<a href="" class="gallery__image">
+								<img src="images/Image.png" alt="">
+							</a>
+							<a href="" class="gallery__name mt-3 mb-2"> Eboby & Ivory</a>
+							<div class="gallery__dataial">Branding</div>
+						</div>
+						<div class="gallery__item col-12 col-sm-12 col-md-6 col-lg-4 mx-auto my-3 row">
+							<a href="" class="gallery__image">
+								<img src="images/Image2.png" alt="">
+							</a>
+							<a href="" class="gallery__name mt-3 mb-2"> Smart Stationary</a>
+							<div class="gallery__dataial">Print Design</div>
+						</div>
+						<div class="gallery__item col-12 col-sm-12 col-md-6 col-lg-4 mx-auto my-3 row">
+							<a href="" class="gallery__image">
+								<img src="images/Image3.png" alt="">
+							</a>
+							<a href="" class="gallery__name mt-3 mb-2"> Clever Poster</a>
+							<div class="gallery__dataial">Print Design</div>
+						</div>
+						<div class="gallery__item col-12 col-sm-12 col-md-6 col-lg-4 mx-auto my-3 row">
+							<a href="" class="gallery__image">
+								<img src="images/Image4.png" alt="">
+							</a>
+							<a href="" class="gallery__name mt-3 mb-2"> Vinyl Record</a>
+							<div class="gallery__dataial">Product Mock-Up</div>
+						</div>
+						<div class="gallery__item col-12 col-sm-12 col-md-6 col-lg-4 mx-auto my-3 row">
+							<a href="" class="gallery__image">
+								<img src="images/Image5.png" alt="">
+							</a>
+							<a href="" class="gallery__name mt-3 mb-2"> Treehouse Template</a>
+							<div class="gallery__dataial">Web Design</div>
+						</div>
+						<div class="gallery__item col-12 col-sm-12 col-md-6 col-lg-4 mx-auto my-3 row">
+							<a href="" class="gallery__image">
+								<img src="images/Image6.png" alt="">
+							</a>
+							<a href="" class="gallery__name mt-3 mb-2"> Burned Logo</a>
+							<div class="gallery__dataial">Branding</div>
+						</div>
 					</div>
 				</div>
-			</section>
+			</div>
 		</main>
-		<footer class="footer">
-			<div class="footer__copy">© Copyright 2021 CayceExpress.com</div>
-			<div class="footer__ico">
-				<i class="fab fa-twitter"></i>
-				<i class="fab fa-facebook-f"></i>
-				<i class="fab fa-pinterest-p"></i>
-				<i class="fab fa-google-plus-g"></i>
+		<footer class="footer container">
+			<div class="row py-4">
+				<div class="footer__copy col-6  align-self-center">© Copyright 2021 CayceExpress.com</div>
+				<div class="footer__ico col-6">
+					<i class="first-ico fab fa-twitter"></i>
+					<i class="second-ico fab fa-facebook-f"></i>
+					<i class="third-ico fab fa-pinterest-p"></i>
+					<i class="fourth-ico fab fa-google-plus-g"></i>
+			</div>
 			</div>
 		</footer>
 	</div>
